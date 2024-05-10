@@ -23,6 +23,33 @@ public class Main
 		list.add(3, "Chitrakar");
 		
 		System.out.println(list); // [Chitrakar, Tiasa, Ankit, Chitrakar]
+
+
+		// ArrayList to Array
+		
+		String arr[] = new String[list.size()];
+		
+		for(int i = 0; i < arr.length; i++){
+		    arr[i] = list.get(i);
+		}
+		
+		for(int i = 0; i < arr.length; i++){
+		    System.out.print(arr[i]+" ");    // Chitrakar, Tiasa, Ankit, Chitrakar
+		}
+		
+		System.out.println("");
+		
+		
+		// Array to ArrayList
+		
+		String arr1[] = {"I", "Love", "You"};
+		
+		Collections.addAll(list, arr1);   
+		
+		System.out.println(list);    // [Chitrakar, Tiasa, Ankit, Chitrakar, I, Love, You]
+		
+		
+		
 		
 		// delete
 		
