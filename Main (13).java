@@ -48,8 +48,19 @@ public class Main
 		
 		System.out.println(list);    // [Chitrakar, Tiasa, Ankit, Chitrakar, I, Love, You]
 		
+		// For integer 
+		// Array to ArrayList
 		
-		
+		// int arr1[] = {15, 16, 17, 18, 19};
+        
+	 //        ArrayList<Integer> list = new ArrayList<>();
+	        
+	 //        for (int i : arr1) {
+	 //            list.add(i);
+	 //        }
+	        
+	 //        System.out.println(list);
+			
 		
 		// delete
 		
